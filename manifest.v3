@@ -10,19 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SalesforceRESTKMAT">1.0</value>
     <value name="TestAWSS3Connr">1.0</value>
-    <value name="KMATWorkdayTest">1.0</value>
     <value name="OriginKMAT_Jun2024">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">9</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">03-07-2024 10:08:48 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-03T10:19:59.450096983Z</value>
+  <value name="lastUpdated">2024-07-03T11:27:18.665319466Z</value>
   <value name="wmProjectId">fl9adeebcb3de545355859b5</value>
   <value name="creator">karthik sb</value>
 </Values>

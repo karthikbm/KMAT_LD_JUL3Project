@@ -19,12 +19,6 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
-- name: KMATWorkdayTest
-  version: "1.0"
-  gitServerName: Karthik
-  gitUrl: https://github.com/karthikbm
-  gitUsername: karthikbm
-  gitBranch: main
 - name: OriginKMAT_Jun2024
   version: "1.0"
   gitServerName: Karthik
