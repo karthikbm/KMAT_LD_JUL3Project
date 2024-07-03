@@ -30,6 +30,11 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: AWS_KMAT
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
 services:
 - serviceName: project.kmat_ld_jul3.integrations:TestSF_QueryAccounts
   packages:
