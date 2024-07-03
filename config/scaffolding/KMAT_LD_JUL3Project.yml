@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: KMAT_LD_JUL3Project
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm/KMAT_LD_JUL3Project
+  gitUsername: karthikbm
+  gitBranch: main
