@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/karthikbm/KMAT_LD_JUL3Project
   gitUsername: karthikbm
   gitBranch: main
+- name: SalesforceRESTKMAT
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
