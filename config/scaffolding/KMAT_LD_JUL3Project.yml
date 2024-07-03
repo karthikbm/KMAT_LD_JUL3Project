@@ -8,22 +8,59 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: SalesforceRESTKMAT
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: TestAWSS3Connr
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: KMATWorkdayTest
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: OriginKMAT_Jun2024
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+services:
+- serviceName: project.kmat_ld_jul3.integrations:TestSF_QueryAccounts
+  packages:
+  - name: KMAT_LD_JUL3Project
+    version: "1.0"
+  - name: KMATWorkdayTest
+    version: "1.0"
+  - name: TestAWSS3Connr
+    version: "1.0"
+  - name: WmAmazonS3Provider
+    version: 10.7.0.0.9
+  - name: SalesforceRESTKMAT
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+  - name: OriginKMAT_Jun2024
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
+- serviceName: Onprem_Flowservice:getSFRESTAccounts
+  packages:
+  - name: SalesforceRESTKMAT
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
+- serviceName: CCS:querySFRESTAccounts
+  packages:
+  - name: SalesforceRESTKMAT
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
