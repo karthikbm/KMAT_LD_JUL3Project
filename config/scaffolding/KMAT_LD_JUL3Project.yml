@@ -26,11 +26,13 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: TestWorkdayConnector
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: AWS_KMAT
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
@@ -56,6 +58,10 @@ services:
     version: 10.7.0.0.53
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.102
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: AWS_KMAT
+    version: "1.0"
 - serviceName: Onprem_Flowservice:getSFRESTAccounts
   packages:
   - name: SalesforceRESTKMAT
