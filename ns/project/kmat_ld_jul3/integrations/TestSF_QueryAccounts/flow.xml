@@ -5,11 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="SalesforceRESTKMAT" SERVICE="Onprem_Flowservice:getSFRESTAccounts">
+<INVOKE NAME="SalesforceRESTKMAT" SERVICE="Onprem_Flowservice:getSFRESTAccounts" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
-
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-</SEQUENCE>
 </FLOW>
