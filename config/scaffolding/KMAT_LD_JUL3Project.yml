@@ -36,6 +36,11 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: TestWorkdayJuly30
+  gitServerName: Lakshmi
+  gitUrl: https://github.com/lakshmidevi277
+  gitUsername: lakshmidevi277
+  gitBranch: main
 services:
 - serviceName: project.kmat_ld_jul3.integrations:TestSF_QueryAccounts
   packages:
